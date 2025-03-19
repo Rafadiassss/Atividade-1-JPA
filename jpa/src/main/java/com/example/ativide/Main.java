@@ -2,6 +2,13 @@ package com.example.ativide;
 
 import java.util.Set;
 
+import com.example.ativide.dao.AutorDAO;
+import com.example.ativide.dao.EditoraDAO;
+import com.example.ativide.dao.LivroDAO;
+import com.example.ativide.models.Autor;
+import com.example.ativide.models.Editora;
+import com.example.ativide.models.Livro;
+
 public class Main {
     public static void main(String[] args) {
         LivroDAO livroDAO = new LivroDAO();
